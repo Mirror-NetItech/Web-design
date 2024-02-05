@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="max-age=36000, must-revalidate">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<title> Advance Web Design Essentials</title>
+	<link rel="stylesheet" href="MirrorWebDesign.css">
+	<style>
+   @media (max-width: 768px) {
+     /* Styles applied when the screen width is 768px or less */
+   }
+      @media (min-resolution: 300dpi) {
+     /* Styles applied when the screen resolution is 300dpi or higher */
+   }
+   
+      @media (max-width: 768px) and (orientation: portrait) {
+     /* Styles applied when the screen width is 768px or less and the device is in portrait orientation */
+   }
+
+#video-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
+}
+   .hov:hover {
+      width: 100%;
+      box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+      border-radius: 12px;
+    }
+
+
+#video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.popup {
+  width:300px;
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  
+  background: linear-gradient(to bottom right, rgba(25, 255, 255, 0.3), rgba(155, 105, 255, 0.3));
+  backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(225, 105, 25, 0.02);
+
+}
+
+.popup.show {
+  display: block;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+h1, p {
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  
+  to {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0% {
+    color: #00ffff;
+  }
+  50% {
+    color: #ff00ff;
+  }
+  80%{
+    color: #000;
+  }
+  100% {
+    color: #ffff0e;
+  }
+}
+	</style>
+</head>
+<body>
+
+
+
+      <div class="app">
+        
+          <div class="me">
+  <h1 contenteditable="true" class="we"> 
+</h1>
+</div>
+<div class="dark-light">
+    <svg viewbox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+     <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path></svg>
+   </div>
+   
+  	<div class="container">
+
+  <div class="scene">
+		<div class="screen"></div>
+
+	</div>
+  
+    
+
+
+		<div class="chat">
+		
+			<div class="chat-header">
+
+				<div class="profile">
+
+					<div class="left">
+						<img src="mirror.jpg" class="pp">
+			<h1 class="logoname">M <sup> irro</sup><sub>R</sub>     N<sup>etwor</sup><sub>K</sub></h1>
+					</div>
+				</div>
+			</div>
+			<div class="chat-box">
+				<div class="chat-r">
+				
+				    <div class="des">
+				        <hr color="white" size="2">
+              <div id="progressbar"></div>
+<div id="scrollpath"></div>
+<section class="sec">
+        <div class="do">
+<div id="popup" class="popup" >
+    <span class="close" onclick="closePopup()">&times;</span>
+    <h1>Hello IT Learner!</h1>
+    <h1>Welcome To The  </h1>
+    <h1 style="animation: blink 1s infinite;"><i> M<sub>irror</sub> N<sub>etwork</sub> ITech Platform</i></h1>
+    <p><h5>Thank you for visiting our website.</h5></p>
+    <p><h5>Enjoy your lesson.</h5></p>
+  </div>
+
+
+
+  <h4 style="height: 17px "> Announcement:
+         <marquee behavior="alternat" direction="left" style="background-color: aqua;height: 18px"> Dear leaner, we want to encourage you take this lessons seriously for this is because some of the things you will take for granted today that this thing is not something tangible. I bet you you will need it one day. </marquee>
+  </h4>
+          <hr size="7px" color="blue" width="250px" class="hr">
+          <h1 style="margin-left: 35%; z-index: 1; position: fixed; padding-top: 0; padding-bottom: 0">Web Design
+          <hr width="120px"></h1>
+         
+          <section id="Online" style="margin-top: 35px" >
+        <fieldset class="did" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+          <legend  class="leg"> <b>What's Web Design</b> </legend>
+           <h4>Web design is the process of creating websites. It encompasses several different aspects, including webpage layout, content production, and graphic design. While the terms web design and web development are often used interchangeably, web design is technically a subset of the broader category of web development.</h4>
+<h2>_-_-_-_-_-_-_-_-_-_-_-_</h2>
+    <h5>
+    <ul>
+      <li>Websites are created using a markup language called HTML. Web designers build webpages using HTML tags that define the content and metadata of each page. The layout and appearance of the elements within a webpage are typically defined using CSS, or cascading style sheets. Therefore, most websites include a combination of HTML and CSS that defines how each page will appear in a browser.</li>
+      <li> Web designers use different tools and technologies to create visually appealing and functional websites that are easy to navigate and interact with. They consider factors like user needs, business goals, and industry trends to design websites that effectively communicate the intended message and engage the target audience. </li> 
+      <li>Some web designers prefer to hand code pages (typing HTML and CSS from scratch), while others use a "WYSIWYG" editor like Adobe Dreamweaver. This type of editor provides a visual interface for designing the webpage layout and the software automatically generates the corresponding HTML and CSS code. Another popular way to design websites is with a content management system like WordPress or Joomla.</li>
+      <li>These services provide different website templates that can be used as a starting point for a new website. Webmasters can then add content and customize the layout using a web-based interface.</li>
+      <li> 
+While HTML and CSS are used to design the look and feel of a website, images must be created separately. Therefore, graphic design may overlap with web design, since graphic designers often create images for use on the Web</li>
+      <li>Some graphics programs like Adobe Photoshop even include a "Save for Web…" option that provides an easy way to export images in a format optimized for web publishing</li>
+    </ul></h5>
+        </fieldset>
+          </section>
+        </div>
+          <hr color="blue" size="6"class="hr" width="80%" style="margin-top: 850px; padding-top: 0;padding-bottom: 0"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Terminologies Related To Web Design</span></legend>
+				        <div class="heade">
+	
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+	<li> <b style=" color: green; font-size: bolder;"> Web/WWW:</b> Is a system of interconnected public webpages accessible through the internet.
+	</li>
+	 <li> <b style=" color: green; font-size: bolder;">Hypertext: </b> Is a system in which documents scattered across many internet sites are directly linked so that a word in one document becomes a connection to a document in a different place.
+	</li>
+		<li> <b style=" color: green; font-size: bolder;">HTTP: </b> Is an application layer protocol suite model to access things on the Web.
+		</li>
+		 <li> <b style=" color: green; font-size: bolder;">URL: </b> Is a unique identifier used to locate a resource on the Internet.
+		</li>
+	 <li> <b style=" color: green; font-size: bolder;">Website: </b>  Is a collection of web pages containing specific information that was all provided by an individual or an entity and that traces back to a common URL.
+	</li>
+	 <li> <b style=" color: green; font-size: bolder;"> Web Browser :</b> Is an application software that is designed and used to view web pages.
+	 </li>
+	 <li> <b style=" color: green; font-size: bolder;">Domain Name:</b> Is a website address that users type in browsers search bar to directly access a specific website.</li>
+				      <li> <b style=" color: green; font-size: bolder;"> Cookie:</b> Is an information stores on a user's computer harddisk that's the RAM to recognize the user and keep track of his preferences when the user visits the site next time.</li>
+				       <li>
+				         <b style=" color: green; font-size: bolder;"> HTML  <b style=" color: brown; font-size: bolder;"> (</b> Hypertext Markup Language <b style=" color: brown; font-size: bolder;"> )</b> :</b> The standard markup language used to create the structure and content of web pages.
+ </li>
+ 
+<li> <b style=" color: green; font-size: bolder;">CSS: </b> A style sheet language used to describe the presentation and layout of a document written in HTML.
+</li>
+<li> <b style=" color: green; font-size: bolder;"> Responsive Design:</b> Designing websites that adapt and respond to different screen sizes and devices, providing an optimal viewing experience.. 
+</li>
+<li>
+  <b style=" color: green; font-size: bolder;"> UI <b style=" color: brown; font-size: bolder;"> (</b> User Interface  <b style=" color: brown; font-size: bolder;"> )</b>:</b> 
+  The visual elements and controls that users interact with on a website or application.
+</li>
+<li> <b style=" color: green; font-size: bolder;"> UX
+   <b style=" color: brown; font-size: bolder;"> (</b>
+User Experience  <b style=" color: brown; font-size: bolder;"> )</b>:</b>The overall experience a user has when interacting with a website or application, including usability, accessibility, and satisfaction.
+</li>
+<li>
+  <b style=" color: green; font-size: bolder;"> Wireframe:</b>
+ A basic visual representation of a web page or application that outlines the structure, layout, and functionality.
+</li>
+<li>
+ <b style=" color: green; font-size: bolder;"> Mockup:</b> A static visual representation of a web page or application that shows the final design, including colors, typography, and imagery.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;"> Prototype:</b>
+   A working model of a web page or application that allows users to interact with and test the functionality before development.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;"> Grid System:</b>
+   A system used to align and organize elements on a web page using columns and rows.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;"> Typography: </b>
+The art and technique of arranging typefaces, fonts, and text to enhance readability and visual appeal.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;">Color Palette: </b>
+   A selection of colors used consistently throughout a website to create a cohesive and visually appealing design.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;">Navigation: </b>
+   The menus, links, and buttons that allow users to move between different pages or sections of a website.
+</li>
+<li>
+   
+    A button, link, or message that prompts users to take a specific action, such as making a purchase or signing up for a newsletter.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;"> Above the Fold:</b>
+   The portion of a web page that is visible without scrolling down, typically containing important content and call-to-action elements.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;">White Space: </b>
+   The empty or blank areas between elements on a web page, used to improve readability and create visual balance.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;">Image Optimization: </b>
+   The process of reducing the file size and optimizing images for web use to improve page load times.
+</li>
+<li>
+   <b style=" color: green; font-size: bolder;"> SEO  <b style=" color: brown; font-size: bolder;"> (</b> Search Engine Optimization<b style=" color: brown; font-size: bolder;"> )</b>:</b>
+   The practice of optimizing a website to improve its visibility and ranking in search engine results.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;"> Accessibility:</b>
+   Designing websites to be usable and accessible to people with disabilities, ensuring equal access to information and functionality.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;"> Browser Compatibility: </b>
+  Ensuring that a website is designed and functions correctly across different web browsers, such as Chrome, Firefox, Safari, and Internet Explorer.
+</li>
+<li>
+    <b style=" color: green; font-size: bolder;">  Web Hosting: </b>
+ The service that allows individuals and organizations to make their websites accessible on the internet by storing the website files on a server.
+</li>
+<li>
+   <b style=" color: green; font-size: bolder;">  Webpage: </b>
+   Is
+</li>
+</ul>
+
+</h5>
+<br>
+<h2>Note:</h2>
+<ul>
+  We are going to accentuate on so of the vital terminologies related to Web Design.
+</ul>
+  </div>
+				    </fieldset>
+             </div>
+				    <hr>
+				    <hr>
+				   <div class="bas" id="si"> 
+				<fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To The Web/ WWW</span></legend>
+				        <div class="heade">
+	
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				  
+
+				   <h4>
+				     The web, also known as the World Wide Web (WWW), is a system of interconnected documents and resources that are accessed through the internet. <br>
+				     It was developed in the late 1980s by <b><i style="color: lightcoral">British computer scientist Tim Berners-Lee </i></b> and has since become one of the most important and widely used technologies on the internet.
+				   </h4>
+				   <hr />
+				   <hr>
+				    <h5>
+				     <ul>
+				       <li>The web is built on top of the internet, which is a global network of computers that allows for the transfer of data. <br> Therefore the Web is a subset of the Internet.</li>
+				       <li>The Internet is the actual network of networks where all the information resides. <br>
+				       Things like Telnet, FTP, Internet gaming, Internet Relay Chat (IRC), and e-mail are all part of the Internet, but are not part of the World Wide Web.
+				       <br> 
+				       In view of that never refers to the <b style="color: lightcoral" ><i> Web / WWW</i></b> as the Internet.
+				       <br>
+				       Knowing the difference between these two terms can save you a lot of embarrassment.
+				       </li>
+               <li>The Internet uses a protocol called HTTP <b style="color: brown">(</b>Hypertext Transfer Protocol <b style="color: brown">)</b> to enable the retrieval and display of web pages in web browsers.
+               <br>
+               All Web pages are written in the hyper-text markup language <b style="color: brown">(</b>HTML <b style="color: brown">)</b>, which works in conjunction with HTTP.
+              </li>
+              <li>The web consists of millions of websites, each containing web pages that are linked together through hyperlinks. <br>
+              These hyperlinks allow users to navigate between different pages and access various types of content, such as text, images, videos, and interactive elements.</li>
+              <li>The web has revolutionized communication, information sharing, and commerce by providing a platform for individuals, organizations, and businesses to publish and access information globally. <br>
+              It has also enabled the development of numerous online services and applications, such as email, social media, e-commerce, and online banking.</li>
+              <li></li>
+            </ul>
+            </h5>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>  
+				   <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Let's Understand What A Website Entails.</span></legend>
+				   
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+    <h4>
+       So, in the context of web design, a "website" refers to a collection of web pages that are related to each other and typically hosted on the same domain. <br>
+       These pages are designed to be viewed on the internet through a web browser.
+
+    </h4>
+				   <h5>
+
+				   
+				     <ul>
+				       <li>
+              A website serves various purposes, such as providing information, selling products or services, entertaining visitors, or facilitating communication. <br>
+              Web design encompasses the visual aspect, layout, and structure of these web pages, as well as the user experience (UX) and user interface (UI) design.</li>
+              <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 10px;">
+                <legend style="color: lightsalmon"><span>F<u>orms Of A Website</u></span></legend>
+                <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+                  <li> <b style=" color: green; font-size: bolder;"> Static Websites: </b> These are built using HTML and CSS, and the content doesn't change unless the developer manually updates it.</li>
+                  <li> <b style=" color: green; font-size: bolder;"> Dynamic Websites:</b> These are created using languages like PHP, Python, or JavaScript, and they can interact with databases to display up-to-date information.</li>
+                  <li> <b style=" color: green; font-size: bolder;"> Responsive Websites:</b> These are designed to provide an optimal viewing experience across a wide range of devices <b style="color: brown">(</b>from desktop computers to mobile phones <b style="color: brown">)</b>.</li>
+                </ol>
+              </fieldset>
+              <hr>
+              <li>When designing a website, web designers consider factors like color schemes, typography, navigation, and overall layout to ensure a visually appealing and user-friendly experience for visitors.
+</li>
+              <li>By the way, did you know that the first website ever created, launched by <b style="color: lightcoral">Tim Berners-Lee </b>on August 6, 1991, was dedicated to information about the World Wide Web project? <br>
+              It provided an explanation about what the World Wide Web was, how to access other people's documents, and how to set up your own server. <br>
+              It's fascinating to see how far web design has come since then, isn't it?</li>
+              <li>If you want to delve into the world of web design, there are plenty of resources and tools available, including HTML, CSS, JavaScript, and various design software like Adobe XD, Sketch, or Figma. </li>
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+
+				    <hr>
+				    <hr>
+				    <hr>
+				    <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To HTTP In The Context Of Web Design</span></legend>
+				        <div class="heade">
+	                <h4>In the context of web design, HTTP refers to the Hypertext Transfer Protocol, which is the underlying protocol used for communication between web browsers and web servers. </h4>
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+				       <li>When designing a website, understanding HTTP is important because it dictates how information is requested and delivered over the internet. <br>
+				       Web designers need to consider various aspects of HTTP to ensure that their websites are optimized for performance, security, and usability.</li>
+				         <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 8px;">
+				           <legend style="color: lightsalmon"><span><u>Some key considerations related to HTTP in web design include:</u></span></legend>
+				           <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+				             <li> <b style=" color: green; font-size: bolder;"> Request methods:</b> HTTP provides different request methods, such as GET, POST, PUT, and DELETE. 
+				             <br>Web designers need to choose the appropriate method based on the purpose of the request.<br>
+				            <b style="color: green"> For example </b>, GET is commonly used to retrieve data, while POST is used for submitting data to a server.</li>
+				            <li> <b style=" color: green; font-size: bolder;"> URL structure:</b> The URL (Uniform Resource Locator) is an essential element of HTTP requests. <br>
+				            Web designers should create well-structured URLs that are easy to understand and navigate. <br>
+				            This includes using descriptive keywords, organizing content into logical directories, and avoiding excessive parameters.</li>
+				            <li> <b style=" color: green; font-size: bolder;">Status codes:</b> HTTP responses include status codes that indicate the outcome of a request. <br>
+				            Web designers should be familiar with common status codes, 
+				             <b style=" color: green; font-size: bolder;"> Examples include</b>
+				             </li>
+				             <table border="2" style="background: linen; border-radius: 20px; color: black">
+				               <tr>
+				                 <th>Codes</th>
+				                 <th>Meaning</th>
+				               </tr>
+				               <tr>
+				                 <td><h3>200</h3></td>
+				                 <td>successful request <b style="color: brown">(</b>the webpage exists <b style="color: brown">)</b></td>
+				               </tr>
+				               <tr>
+				                 <td><h3>301</h3></td>
+				                 <td>moved permanently <b style="color: brown">(</b>often forwarded to a new URL <b style="color: brown">)</b></td>
+				               </tr>
+				               <tr>
+				                 <td><h3>401</h3></td>
+				                 <td>unauthorized request <b style="color: brown">(</b>authorization required <b style="color: brown">)</b></td>
+				               </tr>
+				               <tr>
+				                 <td><h3>403</h3></td>
+				                 <td>forbidden <b style="color: brown">(</b>access is not allowed to the page or directory <b style="color: brown">)</b></td>
+				               </tr>
+				               <tr>
+				                 <td><h3>500</h3></td>
+				                 <td>internal server error <b style="color: brown">(</b>often caused by an incorrect server configuration<b style="color: brown">)</b></td>
+				               </tr>
+				             </table>
+				             <li>
+				              to handle errors and provide appropriate feedback to users.</li>
+				              <li> <b style=" color: green; font-size: bolder;">Caching:</b> HTTP supports caching mechanisms that allow browsers to store and reuse previously retrieved resources.<br>
+				              Web designers can leverage caching to improve website performance by specifying cache-control headers and utilizing techniques like browser caching and CDN <b style="color: brown">(</b>Content Delivery Network<b style="color: brown">)</b> caching.</li>
+				              <li> <b style=" color: green; font-size: bolder;">Security:</b> HTTP alone does not provide strong security measures, as data is transmitted in plain text.<br>
+				              To enhance security, web designers should consider implementing HTTPS <b style="color: brown">(</b>HTTP Secure<b style="color: brown">)</b> using SSL/TLS certificates.<br>
+				              This ensures that data is encrypted during transmission, protecting it from unauthorized access.</li>
+				              <li> <b style=" color: green; font-size: bolder;">Performance optimization:</b> Web designers should optimize HTTP requests and responses to minimize load times and improve website performance.<br>
+				              This can involve techniques such as reducing file sizes, compressing resources, combining multiple requests into one, and leveraging browser caching.</li>
+				              
+				           </ol>
+				           
+				         </fieldset>
+				         <hr>
+				    
+				       <li>HTTP is a stateless protocol, meaning that each request-response cycle is independent and does not retain any information about previous requests. <br>
+				       However, mechanisms like cookies and sessions are used to maintain state and enable more complex interactions between clients and servers.</li>
+				       <li>Over the years, several versions of HTTP have been developed, with HTTP/1.1 being the most widely used version currently. <br>
+				       The latest version, HTTP/2, introduced several performance improvements to enhance web browsing speed and efficiency.</li>
+				       <li>Overall, HTTP is crucial for the functioning of the web, enabling the retrieval and display of web pages and facilitating communication between clients and servers.</li>
+                  <li>By understanding and implementing best practices related to HTTP, web designers can create websites that are efficient, secure, and user-friendly.</li>
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				       <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduce To Web Publishing /Hosting</span></legend>
+				        <div class="heade">
+	              <h4>Is the process of publishing content on the Internet. It includes creating and uploading websites, updating webpages, and posting blogs online. 
+	              <br>The published content may include text, images, videos, and other types of media.</h4>
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+				       <li> In the context of web design, web hosting is an essential component as it allows websites to be published and accessed by users worldwide.</li>
+                  <li>When a website is designed, it consists of various files such as HTML, CSS, JavaScript, images, and other media.</li>
+                  <hr>
+                  <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 8.5px;">
+                    <legend style="color: lightsalmon"><span><u>Things You Need Before You Can Publish A Website Online </u></span></legend>
+                    <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+                      <li>Web development software.</li>
+                      <li>An internet connection</li>
+                      <li>A web server.</li>
+                    </ol>
+                  </fieldset>
+                  <li>The software may be a professional web design program like Dreamweaver or a simple web-based interface like WordPress.</li>
+                  <li>The Internet connection serves as the medium for uploading the content to the web server. </li>
+                  <li>Large sites may use a dedicated web host, but many smaller sites often reside on shared servers, which host multiple websites.
+                  <br>Most blogs are published on public web servers through a free service like Blogger.</li>
+                  <li>Since web publishing doesn't require physical materials such as paper and ink, it costs almost nothing to publish content on the web. </li>
+                  <li>Therefore, anyone with the three requirements above can be a web publisher. </li>
+                  <li>Web hosting providers offer servers or server space where these files can be stored.</li>
+                  <li>Web hosting providers typically offer different types of hosting plans, such as shared hosting, virtual private servers (VPS), dedicated servers, and cloud hosting. <br>
+                  The choice of hosting plan depends on the requirements of the website in terms of traffic, storage, performance, and security.</li>
+                  <li>Once a website is hosted, it is assigned a unique domain name <b style="color: brown">(</b>e.g., <b style="color: lightskyblue">www.example.com</b><b style="color: brown">)</b> that users can enter in their web browsers to access the website.<br>
+                  The domain name is linked to the IP address of the server where the website is hosted.</li>
+                  <li>Web designers need to consider web hosting when designing websites because they need to ensure that the hosting provider offers the necessary features and resources to support the website's requirements. <br>
+                  This includes factors such as storage space, bandwidth, server uptime, security measures, and technical support.</li>
+                  <li>In summary, web hosting is the service that allows websites to be stored and accessed on the internet. <br>
+                  It is a crucial aspect of web design as it enables websites to be published and made available to users worldwide.</li>
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				   
+				   <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To What A Web Server Entails</span></legend>
+				        <div class="heade">
+	                <h4>A web server is a computer program or software that serves as the foundation for hosting and delivering websites and web applications over the internet.</h4>
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+				       <li>It runs Web server software, such as Apache or Microsoft IIS, which provides access to hosted webpages over the Internet.</li>
+				       <li>Most Web servers are connected to the Internet via a high-speed connection, offering OC-3 or faster data transmission rates. </li>
+				       <li>A fast Internet connection allows Web servers to support multiple connections at one time without slowing down.</li>
+				       <li>Any computer can be used as a Web server, as long as it is connected to the Internet and has the appropriate software installed. </li>
+				       <li>However, most Web servers are 1U rack-mounted systems, meaning they are flat, trimmed down computers that can be mounted on a server rack. </li>
+				       <li>Most Web hosting companies have several server racks, which each contain multiple servers.
+				       <br>This is the most space-efficient way to host a large number of websites from a single location.</li>
+				       <li>Web servers typically host multiple websites. Some only host a few, while others may host several hundred.</li>
+				       <li>Web servers that host websites for multiple users are called "shared hosts." <br>
+				       This is the most common type of hosting solution and is used for personal sites, small business sites, and websites run by small organizations.</li>
+				       <li>Web servers that only host websites for a single person or company are called "dedicated hosts." These types of servers are appropriate for high-traffic websites and sites that require custom server modifications. </li>
+				       <li>Dedicated hosts are also more reliable than shared hosts, since there are fewer sites that can cause bottlenecks or other issues with the server.</li>
+
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				   
+				   <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> What Is Meant By A URL</span></legend>
+				        <div class="heade">
+	                <h4>In the context of web design, URL stands for Uniform Resource Locator.
+	                <br>It is the address used to locate a specific resource on the internet, such as a web page, image, or document.</h4>
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   <b style="color: grey">Below Is An Example Of A URL With It's Parts Labeled :</b> <br>
+				   <div style="width: 100%;margin: 0 auto; transition-duration: 1s;
+				   box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22); /* material box shadow */
+      margin-bottom: 20px;" class="hovr">
+				   <img src="Exam.jpg" alt="" width="100%" height="auto" class="hov">
+				    </div>
+				     <ul>
+				      <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 8.5px;">
+				        <legend style="color: lightsalmon"><span><u> Components Of URL</u></span></legend>
+				        <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+				        <li> <b style=" color: green; font-size: bolder;">Protocol:</b> This indicates the communication protocol used to access the resource. The most common protocol is HTTP <b style="color: brown">(</b>
+				        Hypertext Transfer Protocol<b style="color: brown">)</b> for regular web pages, and HTTPS <b style="color: brown">(</b>HTTP Secure<b style="color: brown">)</b> for secure connections.</li>
+				        <li> <b style=" color: green; font-size: bolder;"> Domain Name:</b> This identifies the specific website or server where the resource is hosted. 
+				        <br>It typically includes the second-level domain <b style="color: brown">(</b>SLD<b style="color: brown">)</b> and the top-level domain <b style="color: brown">(</b>TLD<b style="color: brown">)</b>, such as example.com.</li>
+				        <li> <b style=" color: green; font-size: bolder;"> Path: </b>This specifies the specific location or directory on the server where the resource is located.
+				        <br>It may include multiple directories separated by slashes <b style="color: brown">(</b>/<b style="color: brown">)</b> and can also include a file name and extension.</li>
+				        <li> <b style=" color: green; font-size: bolder;"> Query Parameters:</b> These are optional parameters that can be appended to the URL to provide additional information to the server or web application.
+				        <br>They are typically separated from the rest of the URL by a question mark <b style="color: brown">(</b>?<b style="color: brown">)</b> and can include key-value pairs.</li>
+				        </ol>
+				      </fieldset>
+				     
+              <li><b style="color: green">Let's see an example</b> in the URL <b style="color: brown">"</b><b style="color: lightskyblue">https://example.com/blog/post?id=123</b><b style="color: brown">"</b>, <b style="color: brown">"</b><b style="color: lightskyblue">https://</b><b style="color: brown">"</b> is the protocol, <b style="color: brown">"
+              </b><b style="color: lightskyblue">example.com</b><b style="color: brown">"</b> is the domain name, <b style="color: brown">"</b>
+              <b style="color: lightskyblue">/blog/post</b> <b style="color: brown">"</b> is the path, and <b style="color: brown">"</b><b style="color: lightskyblue">?id=123</b><b style="color: brown">"</b> is the query parameter.</li>
+              <li>URLs are important in web design as they serve as the unique address for each page or resource on a website.<br>
+              Web designers often ensure that URLs are user-friendly, descriptive, and optimized for search engines to improve usability and SEO <b style="color: brown">(</b>Search Engine Optimization<b style="color: brown">)</b>.</li>
+            </ul>
+  </div>
+  
+				    </fieldset>
+				      </div>
+				      <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To Search Engine Optimization</span></legend>
+				        <div class="heade">
+	            <h4>Search Engine Optimization <b style="color: brown">(</b>SEO<b style="color: brown">)</b> is the practice of optimizing a 
+	            website to improve its visibility and ranking on search engine results pages <b style="color: brown">(</b>SERPs<b style="color: brown">)</b>.</h4>
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+              <li>In the context of web design, SEO involves implementing various strategies and
+              techniques to make a website more search engine-friendly and increase its chances of appearing higher in search engine rankings.</li>
+              <li>When designing a website, SEO considerations should be taken into account from the beginning to ensure
+              that the website is structured, organized, and coded in a way that search engines can easily crawl and understand its content. </li>
+              <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 10px;" >
+                <legend style="color: lightsalmon"><span><u>Some Key Elements Of SEO In Web Design :</u></span></legend>
+                <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+                  <li><b style="color: green">Keyword Research:</b> Identifying relevant keywords and incorporating them strategically into the website's content, headings, titles, and meta tags.</li>
+                  <li><b style="color: green">Website Structure:</b> Designing a logical and user-friendly website structure with clear navigation, well-organized pages, and URLs that are descriptive and keyword-rich.</li>
+                  <li><b style="color: green">On-page optimization:</b> Optimizing individual web pages by using relevant keywords in headings, titles, meta descriptions, image alt tags, and content. Ensuring that the website loads quickly, is mobile-friendly, and has a good user experience.</li>
+                  <li><b style="color: green">Content creation:</b> Creating high-quality, informative, and engaging content that is optimized for both users and search engines. This includes using relevant keywords naturally within the content and regularly updating the website with fresh content.</li>
+                  <li><b style="color: green">Link building:</b> Building high-quality backlinks from reputable websites to improve the website's authority and credibility in the eyes of search engines.</li>
+                  <li><b style="color: green">Technical optimization:</b> Optimizing technical aspects of the website such as XML sitemaps, robots.txt file, canonical tags, schema markup, and ensuring proper indexing and crawling by search engines.</li>
+                </ol>
+                
+              </fieldset>
+              <li>By incorporating SEO best practices into web design, websites can have better visibility in search engine results, attract more organic traffic, and ultimately achieve their goals of generating leads, conversions, or revenue.</li>
+             
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				      <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To A Domain Name</span></legend>
+				        <div class="heade">
+				          <h4>In the context of web design, a domain name refers to the unique address that users type into their web browsers to access a website. 
+				          <br>It is the human-readable version of the IP address, which is a series of numbers that identifies a specific web server.</h4>
+	
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+				       <li>Whenever you visit a website, the domain name appears in the address bar of the web browser. <br>
+				       Some domain names are preceded by "www" <b style="color: brown">(</b>which is not part of the domain name<b style="color: brown">)</b>, while others omit the "www" prefix. </li>
+				       
+                <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 10px;">
+                 <legend style="color: lightsalmon"><span><u>Parts Of A Domain Name </u></span></legend>
+                  <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;"> 
+                    <li>Top-level domain <b style="color: brown">(</b>TLD<b style="color: brown">)</b></li>
+                    <li>Second-level domain <b style="color: brown">(</b>SLD<b style="color: brown">)</b></li>
+                  </ol>
+                </fieldset>
+                <li>All domain names have a domain suffix, below are the suffix.</li>
+               <li>The TLD is the part that appears after the dot in a domain name, such as .com, .org, .net, or .edu.<br>
+               The SLD is the part that appears before the dot and is chosen by the website owner or organization.</li>
+               <li>The domain suffix helps identify the type of website the domain name represents. For example,  <b style="color: brown">"</b>.com <b style="color: brown">"</b>
+               domain names are typically used by commercial websites, while  <b style="color: brown">"</b>.org <b style="color: brown">"</b> websites are often used by non-profit organizations. <br>
+               Some domain names end with a country code, such as  <b style="color: brown">"</b>.dk <b style="color: brown">"</b> <b style="color: brown">)</b>Denmark<b style="color: brown">)</b>
+               or q <b style="color: brown">"</b>.se <b style="color: brown">"</b> <b style="color: brown">(</b>Sweden<b style="color: brown">)</b>, which helps identify the location and audience of the website.</li>
+               <li>Domain names are relatively cheap to register, though they must be renewed every year or every few years. 
+               The good news is that anyone can register a domain name, so you can purchase a unique domain name for your blog or website.
+               The bad news is that nearly all domain names with common words have already been registered.
+               Therefore, if you want to register a custom domain name, you may need to think of a creative variation.
+               Once you decide on a domain name and register it, the name is yours until you stop renewing it. When the renewal period expires, the domain name becomes available for others to purchase.</li>
+               <li>Domain names are important in web design because they serve as the primary way for users to access a website. 
+               They can also play a role in branding and marketing efforts, as a memorable and relevant domain name can help attract and retain visitors</li>
+               <li>When designing a website, web designers often consider the availability and relevance of domain names.
+               <br>They may work with clients to choose a domain name that aligns with their brand identity and is easy for users to remember and type. <br>
+               Additionally, web designers may assist in setting up and configuring the domain name to ensure it properly points to the website's server.</li>
+              
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				   
+				   
+				   
+				   <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span><u> Introduction To What User Experience Entails.</u></span></legend>
+				        <div class="heade">
+	                <h4>User Experience <b style="color: brown">(</b>UX<b style="color: brown">)</b> in the context of web design refers to the overall experience that a user has while interacting with a website or digital product.</h4>
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+                <li>It encompasses the user's perception, emotions, and satisfaction level when navigating through the website and completing tasks.</li>
+                <li>In web design, UX focuses on creating a website that is user-friendly, intuitive, and provides a positive experience for visitors.
+                <br>This involves understanding the needs, goals, and preferences of the target audience and designing a website that meets those needs effectively.</li>
+                <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 10px;">
+                  <legend style="color: lightsalmon"><span><u>Key Elements Of UX In Web Design Include:</u></span></legend>
+                  <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+                    <li><b style=" color: green">Usability:</b> Ensuring that the website is easy to navigate, with clear and intuitive menus, buttons, and links. <br>
+                    Making sure that information is easily accessible and tasks can be completed without confusion or frustration.</li>
+                    <li><b style="color: green">Visual Design:</b> Creating an aesthetically pleasing and visually appealing website that aligns with the brand identity and engages users.
+                    <br>Using appropriate colors, typography, images, and whitespace to enhance the overall user experience.</li>
+                    <li><b style="color: green">Content:</b> Providing relevant, valuable, and engaging content that meets the user's needs and helps them achieve their goals.
+                    <br>Ensuring that the content is well-organized, easy to read, and supports the user's journey on the website.</li>
+                    <li><b style="color: green">Responsiveness:</b> Designing a website that is responsive and adapts to different screen sizes and devices.
+                    <br>Ensuring that the website loads quickly and performs well across various platforms.</li>
+                    <li><b style="color: green">Accessibility:</b> Making the website accessible to all users, including those with disabilities.<br> Incorporating features such as alternative text for images, captions for videos, and keyboard navigation options.</li>
+                    <li><b style="color: green">Feedback and Interaction:</b>Providing feedback to users when they interact with elements on the website.<br>
+                    This includes visual cues, animations, tooltips, and error messages to guide users and improve their understanding of the website.</li>
+                  </ol>
+                  
+                </fieldset>
+               <li>By focusing on UX in web design, websites can create a positive and enjoyable experience for users, leading to increased engagement, longer visit durations, higher conversion rates, and improved customer satisfaction.</li>
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				   <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To What User Interface Entails</span></legend>
+				        <div class="heade">
+	                <h4>User Interface <b style="color: brown">(</b>UI<b style="color: brown">)</b> in the context of web design refers to the visual and interactive elements of a website or digital product that users interact with.
+	                <br>It encompasses the design and layout of buttons, menus, forms, icons, and other graphical elements that users interact with to navigate and complete tasks on the website.</h4>
+				   </div>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+				       <li>UI design focuses on creating an interface that is visually appealing, intuitive, and easy to use.
+				       <br>It involves the arrangement and presentation of elements on the screen, the use of colors, typography, and imagery, and the overall aesthetic of the website.</li>
+				       <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 10px;">
+				         <legend style="color: lightsalmon"><span><u>Key Elements Of UI Design In Web Design :</u></span></legend>
+				         <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+				           <li><b style="color: green">Layout:</b> The arrangement of elements on the screen, including the placement of menus, buttons, forms, and content sections.
+				           <br>A well-designed layout helps users easily understand the structure of the website and navigate through it.</li>
+				           <li><b style="color: green">Visual Design:</b> The use of colors, typography, icons, and imagery to create a visually appealing interface. 
+				           <br>Visual design plays a crucial role in establishing the brand identity, creating a cohesive look and feel, and engaging users.</li>
+				           <li><b style="color: green">Navigation:</b> The design of menus, buttons, and links that allow users to move between different pages and sections of the website. Navigation should be clear, consistent, and easy to understand, enabling users to find information and complete tasks efficiently.</li>
+				           <li><b style="color: green">Forms and Input Fields:</b> The design of forms and input fields for users to enter information or perform actions. 
+				           <br>Forms should be user-friendly, with clear labels, error messages, and validation to guide users and prevent errors.</li>
+				           <li><b style="color: green">Interactive Elements:</b> The design of interactive elements such as buttons, sliders, checkboxes, and dropdown menus.
+				           <br>These elements should provide visual feedback when interacted with, helping users understand their current state or action.</li>
+				           <li><b style="color: green">Responsiveness:</b> The design should be responsive and adapt to different screen sizes and devices. 
+				           This ensures that the interface remains usable and visually appealing on mobile devices or tablets.</li>
+				         </ol>
+				       </fieldset>
+				       <li>UI design plays a crucial role in enhancing the overall user experience of a website by making it visually appealing, easy to use, and engaging.
+				       <br>It works in conjunction with UX design to create a seamless and enjoyable experience for users.</li>
+				      
+
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				   
+				   
+				   <div class="bes" id="si" >
+				     <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To The Concept Of HTML.</span></legend>
+				        <h4>
+				          Stands for  <b style=" color:brown; font-size: bolder;">  " </b>Hypertext Markup Language.<b style=" color: brown; font-size: bolder;">  " </b> HTML is the language used to create webpages.
+				          <b style=" color: brown; font-size: bolder;">  " </b>Hypertext<b style=" color: brown; font-size: bolder;">  " </b> refers to the hyperlinks that an HTML page may contain. 
+				          <b style=" color: brown; font-size: bolder;">  " </b>Markup language<b style=" color: brown; font-size: bolder;">  " </b> refers to the way tags are used to define the page layout and elements within the page.
+				        </h4>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+    <h5>
+        <fieldset>
+          <legend><span><h6 style="font-size: 18px; color: grey">Below is the Basic Structure Or Fundamental Of HTML</h6></span></legend>
+         
+            <pre>
+    <b style=" color: lightskyblue; font-size: 12px "> &lt;!doctype html&gt;</b>
+     <b style=" color: lightskyblue;font-size:12px "> &lt;html&gt;</b> 
+         <b style=" color: lightskyblue; font-size: 12px "> &lt;head&gt;</b> 
+           <b style=" color: lightskyblue; font-size: 12px "> &lt;title&gt;</b>                <h6 style="font-size: 11.5px; margin-left: 30px"> TechTerms.com </h6>           <b style=" color: lightskyblue; font-size: 12px;"> &lt;/title&gt;</b> 
+         <b style=" color: lightskyblue; font-size: 12px "> &lt;/head&gt;</b> 
+      <b style=" color: lightskyblue; font-size: 12px "> &lt;body&gt;</b> 
+           <b style=" color: lightskyblue; font-size: 12px "> &lt;p&gt;</b><h6 style="font-size: 11.5px; margin-left: 30px">This is an example of a paragraph in HTML.</h6>           <b style=" color: lightskyblue; font-size: 12px"> &lt;/p&gt;</b> 
+      <b style=" color: lightskyblue; font-size: 12px "> &lt;/body&gt;</b> 
+     <b style=" color: lightskyblue; font-size: 12px">  &lt;/html&gt; </b>
+            </pre>
+          
+        </fieldset>
+       
+				   
+				   <hr>
+				     <ul>
+				   <li>The first line defines what type of contents the document contains. <b style=" color: brown; font-size: bolder;"> "</b><b style=" color: lightskyblue; font-size: bolder;"> &lt;!doctype html&gt;</b><b style=" color: brown; font-size: bolder;"> "</b> means the page is written in HTML5. </li>
+				   <li>Properly formatted HTML pages should include <b style=" color: lightskyblue; font-size: bolder;"> &lt;html&gt;</b>,<b style=" color: lightskyblue; font-size: bolder;"> &lt;head&gt;</b>, and <body> tags, which are all included in the example above.</li>
+				   <li>The page title, metadata, and links to referenced files are placed between the  <b style=" color: lightskyblue; font-size: bolder;">&lt;head&gt;</b> tags. The actual contents of the page go between the  <b style=" color: lightskyblue; font-size: bolder;">&lt;body&gt;</b> tags.</li>
+				   <li>The web has gone through many changes over the past few decades, but HTML has always been the fundamental language used to develop webpages.
+				   Interestingly, while websites have become more advanced and interactive, HTML has actually gotten simpler.</li>
+				   <li>These changes happened because the organization who brought the Web keep upgrading the HTML tags there by realizing new versions which included more fancy  new tags.</li>
+				   <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 10px;">
+				     <legend style="color: lightsalmon"><span><h6 style="font-size: 120%" ><u>The Versions Of HTML.</u></h6></span></legend>
+				     <ol style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+				       <li><b style=" color: green; font-size: bolder;">  HTML 1.0: </b> The first version of HTML, released in 1993.</li>
+				       <li><b style=" color: green; font-size: bolder;"> HTML 2.0: </b> Released in 1995, it introduced new features like tables and image maps.</li>
+				       <li><b style=" color: green; font-size: bolder;">  HTML 3.2: </b> Released in 1997, it added support for style sheets and improved table functionality.</li>
+				       <li><b style=" color: green; font-size: bolder;">  HTML 4.01: </b> Released in 1999, it introduced new features like frames, scripting support, and improved form handling.</li>
+				       <li><b style=" color: green; font-size: bolder;"> XHTML <b style=" color: brown; font-size: bolder;">  (</b> Extensible HTML<b style=" color: brown; font-size: bolder;">  )</b>: </b> XHTML 1.0 was released in 2000 as a reformulation of HTML 4.01 in XML syntax.</li>
+				       <li><b style=" color: green; font-size: bolder;">  HTML 5: </b> The latest major version of HTML, released in 2014. It introduced many new features like video and audio elements, canvas for drawing graphics, local storage, and improved form controls.<br> It's worth noting that HTML5 is the current standard and widely used version of HTML.</li>
+				     </ol>
+				   </fieldset>
+				      <hr>
+				      <hr>
+				   <li>If you compare the source of an HTML5 page with a similar page written in HTML 4.01 or XHTML 1.0, the HTML5 page would probably contain less code. </li>
+				   
+				   <li>This is because modern HTML relies on cascading style sheets or JavaScript to format nearly all the elements within a page.</li>
+				   <h2>Note:</h2>
+				   Many dynamic websites generate webpages on-the-fly, using a server-side scripting language like PHP or ASP. However, even dynamic pages must be formatted using HTML. Therefore, scripting languages often generate the HTML that is sent to your web browser.
+            </ul>
+</h5>
+  </div>
+				    </fieldset>
+				    </div>
+				              <hr color="blue" size="6" class="hr" width="80%">
+      <div class="bes" id="si">
+				   
+				   
+        <fieldset class="side" style="display: block;
+				     margin-left: 2px;
+				     margin-right: 25px;
+				     padding-top: 0.35em;
+				     padding-bottom: 0.625em;
+				     padding-left: 1.75em;
+				     padding-right: 1.75em;
+				     border: 10px groove (internal value);">
+				           <legend class="leg"><span> Let's Have A Deep Intro Of HTML5</span></legend>
+				           <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3>
+				   
+				           <div class="containe">
+				             <h5>
+				               HTML5 is the fifth major standard of HTML.
+				               Development of the standard began in 2007 and HTML5 websites started becoming mainstream in 2010.
+				               The final HTML5 standard was officially standardized by W3C on October 28, 2014.
+	                    <ul>
+				                <li>The previous HTML standard, HTML 4.01, was standardized in 1999 – fifteen years before the HTML5 standard was published. </li>
+				                <li>However, in the decade preceding HTML5, most websites were written in XHTML, a more strict version of HTML published in 2000. </li>
+				                <li>HTML5 was designed to supersede both HTML 4 and XHTML by providing web developers with a simpler standard that includes several new features for the modern web.</li>
+				                <fieldset style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 12px;">
+				                  <legend style="color: lightsalmon"><span><u>::::::::::::::::::::::::::::</u></span></legend>
+				                  <h6 style="font-size: 105%">The table below includes a list of new elements, or tags, introduced in HTML5 that are used to define the structure of a document.</h6>
+				                  <table border="1px" style="color: white; background: black; padding-top: 0; padding-bottom: 0;">
+				                    
+				                    <tr>
+				                      <th style="font: bolder; color:red">Tag</th>
+				                      <th style="font: bolder; color: red">Description</th>
+				                     
+				                      
+				                    </tr>
+				                    <tr>
+				                      <td>&lt;header&gt;</td>
+				                      <td>Defines the webpage header</td>
+				                    </tr>
+				                    <tr>
+				                      <td>&lt;footer&gt;</td>
+				                      <td>Defines the page footer</td>
+				                    </tr>
+				                    <tr>
+				                      <td>&lt;nav&gt;</td>
+				                      <td>Defines the navigation bar</td>
+				                    </tr>
+				                    <tr>
+				                      <td>&lt;main&gt;</td>
+				                      <td>Defines the main content of a webpage</td>
+				                    </tr>
+				                    <tr>
+				                      <td>&lt;article&gt;</td>
+				                      <td>Defines an article within a page</td>
+				                    </tr>
+				                    <tr>
+				                      <td>&lt;section&gt;</td>
+				                      <td>Defines a section of a document or article</td>
+				                    </tr>
+				                    <tr>
+				                      <td>&lt;aside&gt;</td>
+				                      <td>Defines content outside a page's primary content</td>
+				                    </tr>
+				                  </table>
+				                </fieldset>
+				                <hr>
+				                <hr>
+				                <hr>
+				                
+				              <li>The tags above simplify the webpage's source as well as the corresponding CSS styles.</li>
+				              <li><b style="color: green"> For example</b> in order to define a navigation
+				              element in XHTML, you would typically write <b style="color: brown">"</b> <b style="color: lightskyblue">&lt;div class="nav"&gt;</b><b style="color: brown">"</b> in the page's HTML and define a class called <b style="color: brown">"</b>.nav<b style="color: brown">"</b> in CSS.</li>
+				              <li>In HTML5, you can simply insert the <b style="color: lightskyblue">&lt;nav&gt; </b>tag in the HTML and style the element itself using CSS.</li>
+				              <li>HTML5 includes several other new tags as well.</li>
+				              <li><b style="color: green">  Example include</b> <b style="color:lightskyblue">&lt;canvas&gt;</b> and <b style="color:lightskyblue">&lt;svg&gt;</b>
+				              for graphics and <b style="color:lightskyblue">&lt;audio&gt;</b> and <b style="color:lightskyblue">&lt;video&gt;</b> for multimedia elements. </li>
+				              <li>
+				                These tags provide new capabilities for web developers, though it is important to note that 
+				                HTML5 still relies heavily on CSS and JavaScript for page styling, animations, and user interaction.
+				              </li>
+				              <li>
+				                Therefore, most interactive HTML5 websites are built using a combination of HTML5, CSS3, and JavaScript or jQuery.
+				              </li>
+				              <h2>Note:</h2>
+				              Previous HTML standards included a space between the <b style="color: brown">"</b>HTML<b style="color: brown">"</b> and the number
+				              <b style="color: brown">(</b>i.e., HTML 1.0, HTML 4.01 <b style="color: brown">)</b>. HTML 5.0 does away with the space and is officially written as HTML5.
+				              </ul>
+                     </h5>
+				           </div>
+        </fieldset>
+				   
+				   
+				   
+      </div>
+      <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To The Concept Of CSS</span></legend>
+				        <h4>Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.</h4>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+              <li>
+      <b style=" color: green; font-size: bolder;"></b>CSS helps Web developers create a uniform look across several pages of a Web site. Instead of defining the style of each table and each block of text within a page's HTML, commonly used styles need to be defined only once in a CSS document.</li>
+      <li>
+        <b style=" color: green; font-size: bolder;"> </b> Once the style is defined in cascading style sheet, it can be used by any page that references the CSS file. Plus, CSS makes it easy to change styles across several pages at once. </li>
+      <li>
+        <b style=" color: green; font-size: bolder;">For example,</b>  a Web developer may want to increase the default text size from 10pt to 12pt for fifty pages of a Web site. If the pages all reference the same style sheet, the text size only needs to be changed on the style sheet and all the pages will show the larger text.
+      </li>
+      <li>
+       <b style=" color: green; font-size: bolder;"> </b> While CSS is great for creating text styles, it is helpful for formatting other aspects of Web page layout as well. 
+      </li>
+      <li>
+       <b style=" color: green; font-size: bolder;">For example, </b>  CSS can be used to define the cell padding of table cells, the style, thickness, and color of a table's border, and the padding around images or other objects. CSS gives Web developers more exact control over how Web pages will look than HTML does. 
+      </li>
+      <li>
+    This is why most Web pages today incorporate cascading style sheets.
+      </li>
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				   <hr color="blue" size="6"class="hr" width="80%"> 
+        		 <div class="bes" id="si" >
+				   
+
+				    <fieldset class="side" style="display: block;
+  margin-left: 2px;
+  margin-right: 25px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  border: 10px groove (internal value);">
+				      <legend class="leg"><span> Introduction To Text Editor</span></legend>
+				        <h4>In the context of web design, a text editor is a software application used to write and edit code for websites.</h4>
+				  <h3>-_--_--_--_--_--_--_--_--_--_--_-</h3> 
+				  
+  <div class="containe">
+				   <h5>
+
+				   
+				     <ul>
+              <li>It is a tool that allows web designers and developers to create and modify the HTML, CSS, JavaScript, and other code that make up a website.</li>
+              <li>Text editors are specifically designed for working with code and offer features that make coding more efficient and productive.</li>
+              <li>Some common features of text editors include syntax highlighting (color-coding different elements of the code), auto-completion (suggesting code options as you type), code 
+              folding (collapsing sections of code for better organization), and multiple tabs or split views for working on multiple files simultaneously.</li>
+              <li>There are many text editors available for web design, ranging from simple and lightweight ones like Notepad++ and Sublime Text to more feature-rich ones like Visual Studio Code and Atom.</li>
+              <li>The choice of text editor often depends on personal preference and the specific needs of the web designer or developer.</li>
+            </ul>
+  </div>
+				    </fieldset>
+				    
+				     
+				    
+				   </div>
+				   <br>
+				   <hr>
+				   <div>
+				   <video width="100%" height="120%" controls style=" border-radius: 20px;border: none;
+  box-shadow: 0 0 15px rgba(10, 190,
+  20, 0.5);   
+  padding: 5px;" id="vig">
+  <source src="How.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+</div>
+				 
+				<hr color="blue" size="240" align="center">  
+      </div>
+    
+		
+				</div>
+			
+				</div>
+			</div>
+
+		
+		</div>
+	</div>
+			</div>
+			</section>
+			  <div class="navigation">
+            <ul>
+              <li class="list active">
+            <a href="#"><span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+             <span class="text">Home</span>
+             </a>
+      </li>
+      <li class="list">
+        <a href="#vig"><span class="icon"><ion-icon name="logo-alipay"></ion-icon></span>
+          <span class="text">Video</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#" ><span class="icon"><ion-icon name="logo-vk"></ion-icon></span>
+          <span class="text">Table.
+          <br>Content</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#"><span class="icon"><ion-icon name="camera-outline"></ion-icon></span>
+          <span class="text">Camera</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="#"><span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+          <span class="text">Settings</span>
+        </a>
+      </li>
+      <div class="indicator">
+
+      </div>
+    </ul>
+  </div>
+  <script>
+    window.onload = function() {
+    var popup = document.getElementById('popup');
+    popup.classList.add('show');
+    
+    setTimeout(function() {
+        closePopup();
+    }, 5000);
+}
+
+function closePopup() {
+    var popup = document.getElementById('popup');
+    popup.classList.remove('show');
+}
+  </script>
+<script type="text/javascript">
+  let progress = document.getElementById('progressbar');
+  let totalHeight = document.body.scrollHeight - window.innerHeight;
+  Window.onscroll = function(){
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+  }
+</script>
+<script>
+  const list = document.querySelectorAll('.list');
+
+  function activeLink() {
+    list.forEach((item) => item.classList.remove('active'));
+    this.classList.add('active');
+  }
+  list.forEach((item) => item.addEventListener('click', activeLink));
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script module src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	
+</body>
+</html>
